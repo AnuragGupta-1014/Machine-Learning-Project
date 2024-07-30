@@ -130,6 +130,6 @@ y_pred = rf_model.predict(X_test)
 
 # Evaluating the models
 accuracy = accuracy_score(y_test, y_pred)
-
+print(y_pred)
 print("Accuracy of Random Forest model using standardized  {0:0.4f}".format(accuracy))
 
